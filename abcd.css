@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans',
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:white;
+}
+
+#nav{
+    height: 100px;
+    width: 100%;
+    background-color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+
+#nav1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+h3{
+    border: 1.5px solid black;
+    font-weight: 500px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 50px;
+
+}
+#nav1 i{
+    border: 1.5px solid black;
+    font-weight: 500px;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 50px;
+
+}
+
+#nav2 h1{
+    font-weight: 500px;
+    font-size: 22px;
+    text-transform: uppercase;
+    
+}
+
+#nav3 button{
+    border-radius: 50px;
+    padding: 7px 12px;
+    border: 1.5px solid black;
+    font-weight: 500px;
+}
+#signup {
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+#advantages{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 130px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+}
+img{
+    height: 430px;
+    width: 370px;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    object-position: top;
+    border-radius: 30px;
+}
+#img1{
+    height: 430px;
+    width: 370px;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-30deg);
+    object-position: top;
+    border-radius: 30px;
+}
+#img2{
+    height: 430px;
+    width: 370px;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-20deg);
+    object-position: top;
+    border-radius: 30px;
+}
+#img3{
+    height: 430px;
+    width: 370px;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate(-10deg);
+    object-position: top;
+    border-radius: 30px;
+}
+#img4{
+    height: 430px;
+    width: 370px;
+    object-fit: cover; 
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)rotate();
+    object-position: top;
+    border-radius: 30px;
+}
+#bottom{
+    position: absolute;
+    left: 3%;
+    bottom: 5.5%;
+    font-size: 17px;
+}
+#arrow{
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    height: 100px;
+    width: 150px;
+}
+#insta{
+    position: absolute;
+    right: 4%;
+    bottom: 10%;
+    font-size: 17px;
+}
+#youtube{
+    position: absolute;
+    right: 7.5%;
+    bottom: 10%;
+    font-size: 17px;
+
+}
+#facebook{
+    position: absolute;
+    right: 11%;
+    bottom: 10%;
+    font-size: 17px;
+
+}
+#lastline{
+    position: absolute;
+    right: 3%;
+    bottom: 5.5%;
+    font-size: 17px;
+}
